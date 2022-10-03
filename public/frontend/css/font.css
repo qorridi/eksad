@@ -1,0 +1,17 @@
+.font-rubik-bold {
+    font-family: 'rubik-bold', sans-serif !important;
+}
+
+
+@font-face {
+    font-family: 'rubik-bold';
+    /*src: url('../../fonts/montserrat/montserrat-regular-webfont.eot');*/
+    src: url('../../fonts/rubik/rubik-bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/rubik/rubik-bold.woff2') format('woff2'),
+    url('../../fonts/rubik/rubik-bold.woff') format('woff'),
+    url('../../fonts/rubik/rubik-bold.ttf') format('truetype'),
+    url('../../fonts/rubik/rubik-bold.svg#montserratregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

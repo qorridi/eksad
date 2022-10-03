@@ -1,0 +1,12 @@
+.logo-responsive{
+    height: 50px;
+    width: auto;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 576px) {
+    .logo-responsive{
+        height: 50px;
+        width: auto;
+    }
+}

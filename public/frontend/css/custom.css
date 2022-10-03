@@ -1,0 +1,167 @@
+.card:not(.no-hover):hover {
+    background-color: #17a9d8;
+
+}
+.modal-content{
+    background-color: white;
+}
+.br-10{
+    border-radius: 10px !important;
+}
+.img-solution-porto{
+    height:20px;
+    margin: 5px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all .15s ease-in-out;
+}
+.ellipsis{
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 80px;
+}
+.ellipsis-footer{
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: auto;
+}
+
+.txt-header-color {
+    background: radial-gradient(100% 100% at 100% 0%, #17ABD9 0%, #3759A8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-blue-eksad{
+    background: radial-gradient(100% 100% at 100% 0%, #17ABD9 0%, #3759A8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.red-eksad{
+    color:#d42627;
+}
+.form-control{
+    background-color: white;
+    border-radius: 10px;
+}
+.form-control:focus{
+    background-color: white;
+}
+.btn-outline-danger-c{
+    background-color: #d42627;
+    color: white;
+}
+.btn-outline-danger-c:hover{
+    background-color: #d42627;
+    color: white;
+}
+.card:hover{
+    background-color: white;
+}
+.text-dark{
+    color: black !important;
+}
+
+.txt-banner{
+    font-size: 36px ;
+    line-height: 1.6em;
+}
+.txt-body1{
+    font-size: 22px ;
+    line-height: 1.6em;
+}
+.txt-body2{
+    font-size: 20px;
+    line-height: 1.6em;
+}
+.txt-body3{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.txt-banner{
+    font-size: 48px;
+}
+.txt-body1{
+    font-size: 36px !important;
+}
+.txt-body2{
+    font-size: 20px !important;
+}
+.txt-body3{
+    font-size: 14px !important;
+}
+.txt-body4{
+    font-size: 12px !important;
+}
+.txt-body5{
+    font-size:22px !important;
+}
+.txt-body6{
+    font-size:30px !important;
+}
+
+@media (min-width: 576px){
+    .txt-banner{
+        font-size: 40px;
+    }
+    .txt-body1{
+        font-size: 26px;
+    }
+    .txt-body4{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .row:not(.g-sm):not(.g-0) {
+         margin-right: 0 !important;
+         margin-left: 0 !important;
+    }
+}
+
+@media (min-width: 1900px){
+    .txt-banner{
+        font-size: 48px;
+    }
+    .txt-body1{
+        font-size: 40px !important;
+    }
+    .txt-body2{
+        font-size: 20px !important;
+    }
+    .txt-body3{
+        font-size: 16px !important;
+    }
+    .txt-body4{
+        font-size: 14px !important;
+    }
+    .txt-body5{
+        font-size:24px !important;
+    }
+    .txt-body6{
+        font-size:32px !important;
+    }
+}
